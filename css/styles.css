@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body{
+    font: 18px Roboto, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.pheader h1{
+    color: black;
+    text-shadow: 0 0 10px red;
+    font-size: 40px;
+    margin: 0;
+}
+
+.pheader h3{
+    color: rgb(57, 4, 57);
+    text-shadow: 0 0 5px #fff;
+    font-size: 25px;
+}
+
+.pnav {
+    color: black;
+    text-shadow: 0 0 5px #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+.fa-solid {
+    color: black;
+  }
+
+a.button {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #390439;
+    font-size: 20px;
+    color: white;
+}
+
+.category li{
+    font-size: 3rem;
+}
+
+.category a:visited,a:active,a:link {
+    color: black;
+}
+
+.category a:hover{
+    color: white;
+    background-color: black;
+}
+
+.news{
+    background-color: blueviolet;
+}
+
+.news h3 {
+    text-align: center;
+}
+
+.news form {
+    text-align: center;
+}
+
+.news input,button {
+    font-size: 1.25rem;
+}
+
+.sub-button {
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: #390439;
+    font-size: 20px;
+    color: white;
+}
+
+.cat-header{
+    text-align: left;
+}
+
+.cat-nav li{
+    font-size: large;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .pheader h1{
+        font-size: 30px;
+    }
+    .pheader h3{
+        font-size: 20px;
+    }
+    .pnav {
+        font-size: 15px;
+    }
+    a.button {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .pnav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
