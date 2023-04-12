@@ -120,3 +120,74 @@ a.button {
         display: block;
     }
 }
+
+.slider-outer {
+    overflow: auto;
+    margin: auto 20%;
+}
+
+.slider-inner {
+    width: 95%;
+    margin: 40px auto;
+    position: relative;
+    float: left;
+    border: #666 solid 2px;
+}
+
+.slider-inner img{
+    display: none;
+    width: 100%;
+    height:auto;
+}
+
+.slider-inner img.active{
+    display:inline-block;
+}
+
+.prev{
+    float:left;
+    margin-top: 30%;
+    cursor: pointer;
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next{
+    float:left;
+    margin-top: 30%;
+    cursor: pointer;
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+
+.cart-items {
+    margin: 10px 30px;
+}
+.cart-items img{
+    display: inline;
+    width: 10%;
+    height: auto;
+    margin: 10px 30px;
+}
+
+.cart-items h3{
+    display: inline;
+    margin: 10px 30px;
+}
+
+.cart-items p{
+    display: inline;
+    margin: 10px 30px;
+}
+
+.cart-items input{
+    display: inline;
+    margin: 10px 30px;
+}
+
+.cart-items button{
+    display: inline;
+    margin: 10px 30px;
+}
