@@ -8,6 +8,8 @@
     <meta name="keywords" content="NIKE, nike, sneakers, buy sneakers">
     <meta name="author" content="Pubudu Bandara">
     <title>Nike Sneakers</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -41,7 +43,7 @@
         <nav class="pnav">
             <ul class="pnav">
                 <li><a href="index.html"><i class="fa-solid fa-house fa-2x"></i></a></li>
-                <li><a href="index.html"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
                 <li><a href="index.html"><i class="fa-solid fa-heart fa-2x"></i></a></li>
                 <li><a href="index.html" class="button">Log In or Sign Up</a></li>
             </ul>
@@ -76,19 +78,26 @@
             <h2>Men</h2>
             <nav class="cat-nav">
                 <ul>
-                    <li><a href="">Just Released</a></li>
-                    <li><a href="">Best Sellers</a></li>
-                    <li><a href="">Sale</a></li>
-                    <li><a href="">Feeling Lucky</a></li>
+                    <li><a href="men.html">Just Released</a></li>
+                    <li><a href="men.html">Best Sellers</a></li>
+                    <li><a href="men.html">Sale</a></li>
+                    <li><a href="men.html">Feeling Lucky</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="cat-content">
-                <img  src="media/images/men6.avif" alt="">
-                <img  src="media/images/men3.avif" alt="">
-                <img  src="media/images/men5.avif" alt="">
-                <img  src="media/images/men4.jpg" alt="">
+        <div>
+            <div class="slider-outer">
+                <img  src="media/images/left.png" class="prev" alt="Previous">
+                <div class="slider-inner">
+                    <img  src="media/images/men6.jpg" class = "active">
+                    <img  src="media/images/men3.jpg" >
+                    <img  src="media/images/men5.jpg">
+                    <img  src="media/images/men4.jpg" >
+                </div>
+                <img  src="media/images/right.png" class="next" alt="Next">
+            </div>
         </div>
+        
     </section>
 
     <div class="parallax-red"></div>
