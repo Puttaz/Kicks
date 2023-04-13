@@ -133,9 +133,9 @@
     height: 100%;
 }
 
-/* .cat-nav{
+.cat-nav{
     display: flex;
-} */
+}
 
 .cat-nav li{
     display: inline-block;
@@ -163,7 +163,7 @@
 }
 
 .footer{
-    /* margin: 10px; */
+    margin: 10px;
     padding: 10px;
 }
 
@@ -200,13 +200,3 @@
 .parallax-cart {
     min-height: 60px;
 }
-checkoutButton{
-    align-items: center;
-}
-#buttonContainer{  
-    text-align: center;  
-    /* border: 7px solid red;   */
-    /* width: 300px;  
-    height: 200px;   */
-    padding-top: 100px;  
-    }  

@@ -146,9 +146,9 @@
     margin: 10px 0;
 }
 
-.cat-content {
+/* .cat-content {
     column-count: 2;
-}
+} */
 
 .cat-content img{
     width: 75%;
@@ -200,13 +200,3 @@
 .parallax-cart {
     min-height: 60px;
 }
-checkoutButton{
-    align-items: center;
-}
-#buttonContainer{  
-    text-align: center;  
-    /* border: 7px solid red;   */
-    /* width: 300px;  
-    height: 200px;   */
-    padding-top: 100px;  
-    }  

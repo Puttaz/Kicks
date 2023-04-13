@@ -102,12 +102,12 @@
     display: flex;
 }
 
-.news h3 {
+/* .news h3 {
     width: 35%;
     margin: 40px 2%;
     padding-top: 10px;
 
-}
+} */
 
 .news form {
     width: 35%;
@@ -146,12 +146,12 @@
     margin: 10px 0;
 }
 
-.cat-content {
+/* .cat-content {
     column-count: 2;
-}
+} */
 
 .cat-content img{
-    width: 75%;
+    width: 95%;
     height: auto;
 }
 
@@ -200,13 +200,3 @@
 .parallax-cart {
     min-height: 60px;
 }
-checkoutButton{
-    align-items: center;
-}
-#buttonContainer{  
-    text-align: center;  
-    /* border: 7px solid red;   */
-    /* width: 300px;  
-    height: 200px;   */
-    padding-top: 100px;  
-    }  

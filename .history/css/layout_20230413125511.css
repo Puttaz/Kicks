@@ -203,10 +203,10 @@
 checkoutButton{
     align-items: center;
 }
-#buttonContainer{  
+.container{  
     text-align: center;  
-    /* border: 7px solid red;   */
-    /* width: 300px;  
-    height: 200px;   */
+    border: 7px solid red;  
+    width: 300px;  
+    height: 200px;  
     padding-top: 100px;  
     }  

@@ -63,7 +63,7 @@ a.button {
 }
 
 .news{
-    background-color: #faf738ed;
+    background-color: blueviolet;
 }
 
 .news h3 {
@@ -87,16 +87,7 @@ a.button {
 }
 
 .cat-header{
-    text-align: center;
-    background-color: black;
-    padding: 10px;
-    margin: 20px;
-}
-
-h2{
-    font-weight: bold;
-    font-size: 40px;
-    color:white;
+    text-align: left;
 }
 
 .cat-nav li{

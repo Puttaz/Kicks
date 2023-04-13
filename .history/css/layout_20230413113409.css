@@ -104,9 +104,7 @@
 
 .news h3 {
     width: 35%;
-    margin: 40px 2%;
-    padding-top: 10px;
-
+    margin: 40px 10%;
 }
 
 .news form {
@@ -133,9 +131,9 @@
     height: 100%;
 }
 
-/* .cat-nav{
+.cat-nav{
     display: flex;
-} */
+}
 
 .cat-nav li{
     display: inline-block;
@@ -163,7 +161,7 @@
 }
 
 .footer{
-    /* margin: 10px; */
+    margin: 10px;
     padding: 10px;
 }
 
@@ -200,13 +198,3 @@
 .parallax-cart {
     min-height: 60px;
 }
-checkoutButton{
-    align-items: center;
-}
-#buttonContainer{  
-    text-align: center;  
-    /* border: 7px solid red;   */
-    /* width: 300px;  
-    height: 200px;   */
-    padding-top: 100px;  
-    }  
