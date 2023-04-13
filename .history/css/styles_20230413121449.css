@@ -14,7 +14,7 @@ body{
 
 .pheader h1{
     color: rgb(231, 196, 18);
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight:bolder;
     margin: 0;
 }
