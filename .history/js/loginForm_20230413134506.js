@@ -4,8 +4,8 @@ function validateSignUpform(){
 
    // For printing the error messages 
   // $(":text").next().text("*");
- $("span").hide(); 
- $(":text").after("<span></span>");
+  
+
  $(":password").after("<span></span>");
  // Created different regex for each label
 console.log(localStorage);
@@ -17,6 +17,7 @@ console.log(emailCheck);
  var charPattern = /^[A-Za-z]+$/;
  if (userName == "") {
    document.getElementById("userName").style.margin = "60px 20px 0px 60px";
+   $(":text").after("<span></span>");
    $("#userName").next().text(" This field is required.");
   
  } else if (!charPattern.test(userName)) {
@@ -80,7 +81,26 @@ console.log(emailCheck);
 
 function validateform() {
   
-  $("span").hide(); 
+
+// var keys = ["one", "two", "three"];
+// var values = [1, 2, 3];
+
+// var map = new Map(); 
+      
+ // Loop to insert key & value in this object one by one
+
+//  for(var i = 0; i < keys.length; i++){ 
+//     map.set(keys[i], values[i]); 
+// } 
+
+// map.set("user",2);
+// console.log(map);
+
+// console.log(map.get('one'));
+
+  // For printing the error messages 
+  // $(":text").next().text("*");
+  // $(":text").after("<span>*</span>");
   $(":password").after("<span></span>");
   // Created different regex for each label
 

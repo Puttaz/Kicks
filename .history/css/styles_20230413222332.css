@@ -26,7 +26,7 @@ body{
 }
 
 .pnav {
-    color: rgb(0, 0, 0);
+    color: black;
     text-shadow: 0 0 5px #fff;
     font-size: 20px;
     text-align: center;
@@ -38,7 +38,7 @@ body{
 }
 
 .fa-solid {
-    color: white;
+    color: black;
   }
 
 a.button {
@@ -100,7 +100,7 @@ h2{
 }
 
 .cat-nav li{
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .footer{
@@ -205,18 +205,6 @@ h2{
     margin: 10px 30px;
 }
 
-.cat-content button{
-
-    color:white;
-    border-radius: 22px;
-    width: 120px;
-    background-color: black;
-}
-
-#buttonContainer button{
-    background-color: green;
-    color: #fff;
-    border-radius: 22px;
-    width: 180px;
-    cursor: pointer;
-}
+/* a{
+    font-size: 30px;
+} */

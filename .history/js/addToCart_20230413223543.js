@@ -86,57 +86,17 @@ $(document).ready(function(){
         if(localStorage.getItem('items')){
             items = JSON.parse(localStorage.getItem('items'))
             for (let j = 0; j < items.length; j++){
-                if (items[j].name == 'Nike Dunk low'){
+                if (items[j].name == 'Dunk low'){
                     window.alert("item already available in the cart");
                     return;
                 }
             }
-            items.push({name:'Nikw Dunk low',price: '59.99', img:'media/images/womendunks.jpg', quantity:'1'})
+            items.push({name:'Dunk low',price: '59.99', img:'media/images/womendunks.jpg', quantity:'1'})
             localStorage.setItem('items',JSON.stringify(items))
            }
            else{
-            items.push({name:'Nike Dunk low',price: '59.99', img:'media/images/womendunks.jpg',quantity:'1'})
+            items.push({name:'Dunk low',price: '59.99', img:'media/images/men6.jpg',quantity:'1'})
             localStorage.setItem('items',JSON.stringify([{name:'Nike dunk low',price: '59.99', img:'media/images/womendunks.jpg',quantity:'1'}]))
-           }
-        window.alert("Item Added")
-    })
-
-    $('#nike-women-blazers').on('click',function(){
-        console.log("clicked")
-        if(localStorage.getItem('items')){
-            items = JSON.parse(localStorage.getItem('items'))
-            for (let j = 0; j < items.length; j++){
-                if (items[j].name == 'Nike women Blazers'){
-                    window.alert("item already available in the cart");
-                    return;
-                }
-            }
-            items.push({name:'Nike women Blazers',price: '99.99', img:'media/images/womenBlazers.jpg', quantity:'1'})
-            localStorage.setItem('items',JSON.stringify(items))
-           }
-           else{
-            items.push({name:'Nike women Blazers',price: '99.99', img:'media/images/womenBlazers.jpg',quantity:'1'})
-            localStorage.setItem('items',JSON.stringify([{name:'Nike women Blazers',price: '99.99', img:'media/images/womenBlazers.jpg',quantity:'1'}]))
-           }
-        window.alert("Item Added")
-    })
-
-    $('#air-vapor-max').on('click',function(){
-        console.log("clicked")
-        if(localStorage.getItem('items')){
-            items = JSON.parse(localStorage.getItem('items'))
-            for (let j = 0; j < items.length; j++){
-                if (items[j].name == 'Air Vapor Max'){
-                    window.alert("item already available in the cart");
-                    return;
-                }
-            }
-            items.push({name:'Air Vapor Max',price: '49.99', img:'media/images/airvapormax.jpg', quantity:'1'})
-            localStorage.setItem('items',JSON.stringify(items))
-           }
-           else{
-            items.push({name:'Air Vapor Max',price: '49.99', img:'media/images/airvapormax.jpg',quantity:'1'})
-            localStorage.setItem('items',JSON.stringify([{name:'Nike women Blazers',price: '49.99', img:'media/images/airvapormax.jpg',quantity:'1'}]))
            }
         window.alert("Item Added")
     })
