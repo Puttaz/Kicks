@@ -13,26 +13,11 @@ body{
 }
 
 .pheader h1{
-    color: white;
+    color: rgb(231, 196, 18);
     font-size: 50px;
     font-weight:bolder;
     margin: 0;
 }
-
-.headerH1{
-    width: 100px;
-    height: 50px;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 3s infinite;   
-}    
-
-#headerKicks {animation-timing-function: ease;}
-  
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-  }
 
 .pheader h3{
     color: rgb(57, 4, 57);
@@ -59,9 +44,9 @@ body{
 a.button {
     border-radius: 10px;
     padding: 15px;
-    background-color: #e85529ed;
+    background-color: #faf738ed;
     font-size: 20px;
-    color: white;
+    color: rgb(11, 5, 5);
 }
 
 .category li{
@@ -70,7 +55,7 @@ a.button {
 }
 
 .category a:visited,a:active,a:link {
-    color: #dc3c2e
+    color: #faf738ed;
 }
 
 .category a:hover{
@@ -79,7 +64,7 @@ a.button {
 }
 
 .news{
-    background-color: #1b7da4;
+    background-color: #faf738ed;
 }
 
 .news h3 {
@@ -104,7 +89,7 @@ a.button {
 
 .cat-header{
     text-align: center;
-    background-color:  #1b7da4;
+    background-color: black;
     padding: 10px;
     margin: 20px;
 }
@@ -210,23 +195,13 @@ h2{
 .cart-items input{
     display: inline;
     margin: 10px 30px;
-    font-size: 20px;
 }
 
 .cart-items button{
     display: inline;
     margin: 10px 30px;
-    background-color: red;
-    border-radius: 9px;
-    padding: 10px;
-    color: white;
 }
 
-#total-amount{
-    font-size: 30px;
-    font-weight: bolder;
-    color: green;
-}
 .cart h3{
     margin: 10px 30px;
 }

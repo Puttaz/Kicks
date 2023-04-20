@@ -244,14 +244,12 @@ checkoutButton{
     }    
 .popButton{
     border-radius: 7px;
-    border-color: none;
-    background-color: #3896faed;
-    color: rgb(40, 31, 31);
-    padding: 10px;
+    background-color: #faf738ed;
+    color: black;
 }
 .marq{
 
     font-size: 40px;
-    color: #1b7da4;
+    color: brown;
     font-weight: bolder;
 }

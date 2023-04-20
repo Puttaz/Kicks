@@ -210,7 +210,6 @@ h2{
 .cart-items input{
     display: inline;
     margin: 10px 30px;
-    font-size: 20px;
 }
 
 .cart-items button{
@@ -218,15 +217,9 @@ h2{
     margin: 10px 30px;
     background-color: red;
     border-radius: 9px;
-    padding: 10px;
     color: white;
 }
 
-#total-amount{
-    font-size: 30px;
-    font-weight: bolder;
-    color: green;
-}
 .cart h3{
     margin: 10px 30px;
 }

@@ -216,24 +216,18 @@ checkoutButton{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 100px;
+    height: 200px;
     text-align: center;
     background-color: #e8eae6;
     box-sizing: border-box;
     padding: 10px;
     z-index: 100;
     display: none;
+        /*to hide popup initially*/
     }
-.discountHeader{
-    color: crimson;
-}    
-.discountVoucher{
-    padding-top: 20px;
-    font-weight: bolder;
-}     
+      
 .close-btn {
     position: absolute;
-    width: 20px;
     right: 20px;
     top: 15px;
     background-color: black;
@@ -242,16 +236,4 @@ checkoutButton{
     padding: 4px;
     cursor: pointer;
     }    
-.popButton{
-    border-radius: 7px;
-    border-color: none;
-    background-color: #3896faed;
-    color: rgb(40, 31, 31);
-    padding: 10px;
-}
-.marq{
 
-    font-size: 40px;
-    color: #1b7da4;
-    font-weight: bolder;
-}

@@ -224,16 +224,9 @@ checkoutButton{
     z-index: 100;
     display: none;
     }
-.discountHeader{
-    color: crimson;
-}    
-.discountVoucher{
-    padding-top: 20px;
-    font-weight: bolder;
-}     
+      
 .close-btn {
     position: absolute;
-    width: 20px;
     right: 20px;
     top: 15px;
     background-color: black;
@@ -242,16 +235,4 @@ checkoutButton{
     padding: 4px;
     cursor: pointer;
     }    
-.popButton{
-    border-radius: 7px;
-    border-color: none;
-    background-color: #3896faed;
-    color: rgb(40, 31, 31);
-    padding: 10px;
-}
-.marq{
 
-    font-size: 40px;
-    color: #1b7da4;
-    font-weight: bolder;
-}

@@ -17,19 +17,20 @@ body{
     font-size: 50px;
     font-weight:bolder;
     margin: 0;
+    animation: mymove 5s infinite;
 }
-
-.headerH1{
+div {
     width: 100px;
     height: 50px;
+    background-color: red;
     font-weight: bold;
     position: relative;
-    animation: mymove 3s infinite;   
-}    
-
-#headerKicks {animation-timing-function: ease;}
+    animation: mymove 5s infinite;
+  }
   
-@keyframes mymove {
+  #div2 {animation-timing-function: ease;}
+  
+  @keyframes mymove {
     from {left: 0px;}
     to {left: 300px;}
   }
@@ -210,23 +211,13 @@ h2{
 .cart-items input{
     display: inline;
     margin: 10px 30px;
-    font-size: 20px;
 }
 
 .cart-items button{
     display: inline;
     margin: 10px 30px;
-    background-color: red;
-    border-radius: 9px;
-    padding: 10px;
-    color: white;
 }
 
-#total-amount{
-    font-size: 30px;
-    font-weight: bolder;
-    color: green;
-}
 .cart h3{
     margin: 10px 30px;
 }
