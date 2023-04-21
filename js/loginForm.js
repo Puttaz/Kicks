@@ -4,8 +4,8 @@ function validateSignUpform(){
   // For printing the error messages 
  // $(":text").next().text("*");
 $("span").hide(); 
-$(":text").after("<span></span>");
-$(":password").after("<span></span>");
+// $(":text").after("<span></span>");
+// $(":password").after("<span></span>");
 // Created different regex for each label
 console.log(localStorage);
 var emailCheck = false;
@@ -15,10 +15,12 @@ var userName = $("#userName").val();
 
 var charPattern = /^[A-Za-z]+$/;
 if (userName == "") {
+  $("#userName").after("<span></span>");
   document.getElementById("userName").style.margin = "60px 20px 0px 60px";
   $("#userName").next().text(" This field is required.");
  
 } else if (!charPattern.test(userName)) {
+  $("#userName").after("<span></span>");
   document.getElementById("userName").style.margin = "60px 20px 0px 60px";
   $("#userName").next().text("Only characters allowed.");
  
@@ -34,11 +36,13 @@ var email = $("#emailSign").val();
 //  console.log(email);
 //Checking if field is empty 
 if (email == "") {
+  $("#emailSign").after("<span></span>");
   document.getElementById("emailSign").style.margin = "20px 60px 0px 60px";
   $("#emailSign").next().text(" This field is required.");
   }
  // Checking if entered email matches the regex pattern
 else if (!emailPattern.test(email)) {
+  $("#emailSign").after("<span></span>");
   document.getElementById("emailSign").style.margin = "20px 60px 0px 60px";
   $("#emailSign").next().text(" Must be a valid email address.");
  
@@ -52,13 +56,14 @@ var passwordPattern = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
 var password = $("#passwordSign").val();
  
 if (password == "") {
+  $("#passwordSign").after("<span></span>");
   document.getElementById("passwordSign").style.margin = "20px 60px 0px 60px";
   $("#passwordSign").next().text(" This field is required.");
   
 }
  // Checking if entered email matches the regex pattern
 else if (!passwordPattern.test(password)) {
-
+  $("#passwordSign").after("<span></span>");
   document.getElementById("passwordSign").style.margin = "20px 60px 0px 60px";
   $("#passwordSign").next().text("8 letter, 1 symbol, upper and lower case letters & no");
   
@@ -72,7 +77,7 @@ else if (!passwordPattern.test(password)) {
    {
    localStorage.setItem(email, password);
    console.log(localStorage);
-   location.replace("index.html");
+   location.replace("loginForm.html");
    }
 
 }
